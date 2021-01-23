@@ -1,0 +1,25 @@
+1.Variables-(A container that stores something)
+-Our computer has a memory where we can store things
+-To be able to store something in the memory we have to reserve some spaces.-> variable
+Each Variable has a specific type
+It is called variable cause the value inside it can change
+2.Data types-(different types)
+ex-text,number,Boolean.(true/false)
+-User Defined Types-(Car,Person, etc) these types are also for values
+3.Operators-(Aritmetic(+,-,*,/,% etc),Relational(<,>,=,>=,<=) & Logical(And ,OR etc))
+4. Conditions(if,else,else if etc)
+5. Loops
+i) While Loop
+ii) Do While Loop
+iii) For Loop
+iv) For Each Loop
+6.Methods-(divide codes into smaller pieces)
+-Less code in main().
+-easier to debug the program
+-easier to understand
+-makes development process easier-break the program in smaller pieces and solve one by one.
+
+
+
+
+

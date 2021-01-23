@@ -1,0 +1,38 @@
+1. byte (a type used with integers)
+All Numbers in interval [-128,127] can be stored in a byte variable
+ex-
+byte b1 = -128;
+byte b2 = 127;
+byte b3 = 100;
+
+error types
+ byte b4 =-129;
+ byte b5 = 128;
+2.  short (a type used with integers)
+ All Numbers in interval [-32768,32767] can be stored in a short variable
+ error 
+ short s1 = 32768; 
+3. long (a type used with integers)
+All Numbers in interval [-9223372036854775808L,9223372036854775807L] can be stored in a long variable
+a letter 'l' or "L" should be used to added to tell the compiler that a number is a long and not an integers
+ex->
+long l1 = -9223372036854775808L;
+long l2 =-1839;//long is greater than integer so long can store //integers
+long l3 = -9223372036854775808;//error cause we dont tell the compiler it is a long number;
+type convertion
+byte->short->int->long
+i)long can store an int, a short and a byte;
+ii)int can store a short and a byte but not long;//cause long>int
+iii)short can store byte similarly
+iv)byte can only store a byte 
+example by codes
+byte b1= 5;
+short s1 = 10;
+int i1 = 20;
+long l1 = 100;
+l1 = b1+s1+i1;//okay long=int;
+i1=s1+b1;//ok, int = short 
+s1 = b1; // ok short=byte;
+i1=l1;// not ok cause int = long
+s1 = i1; not ok cause short = int
+b1 = i1; not ok cause byte= int

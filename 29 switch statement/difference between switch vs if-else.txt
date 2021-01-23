@@ -1,0 +1,31 @@
+Difference between switch vs if-else
+//example-(if-else)//only one block will be executed
+if(n==10)
+System.out.println("= 10");
+else if(n==90)
+System.out.println("= 90");
+else
+System.out.println("None of the above");
+//example-(switch) //More than one block will be executed
+switch(n){
+   case 10:
+          System.out.println("= 10");
+   case 90:
+          System.out.println("= 90");
+    case -3:
+          System.out.println("= -3");
+}
+//example of switch if we want to execute like if-else
+switch(n){
+   case 10:
+          System.out.println("= 10");
+		  break;
+   case 90:
+          System.out.println("= 90");
+		  break;
+    case -3:
+          System.out.println("= -3");
+          break;
+    default:
+          System.out.println("None of the above");
+}

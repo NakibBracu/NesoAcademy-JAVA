@@ -1,0 +1,23 @@
+return types
+a method that can return/give values
+f(x)=x+1
+a method is a function that is inside a class
+x is a parameter here
+and x+1 is a return value of this function
+if x = 3 , then f(3)=3+1=4;
+this function/method return type is number.
+getUserName();
+-get the name and return the value
+return type of this method(String)
+getUserAge();
+-get the age
+-return type will be int,double etc;
+main() has a void return type.
+-this main() method doesn't return any value
+ex-
+printUserName();
+-printUserName() just print the value so its return type can be void
+-note-every method has a specific rule
+-getUserName()-return type String
+-printUserName()-return type void
+

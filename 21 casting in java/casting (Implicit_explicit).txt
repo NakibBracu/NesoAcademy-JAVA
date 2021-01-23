@@ -1,0 +1,38 @@
+Casting(Converting a Data Type to Another Type)
+****Implicit Casting
+-> Happens automatically when converting from a narrower rangs to a wider range ex- int---->double/float/long
+ex-> float to double
+---------->ex->
+double d1 = 4;(int to double)
+double d2 = 5.7f;(float to double)
+long l1 = 100;(int to long)
+//Error(Wider-> Narrower(not possible in implicit casting))
+int i1 = 4.5;
+int i2 = 8L;
+float f1 = 4.5;
+****Explicit Casting
+-> Doesn't Happen automatically .Should be done by the programmer
+when converting Wider to Narrower
+ex-> double to int
+ex-> Long to Double
+//(new data type) expression
+int i1 = (int) 4.5; (data loss .5)
+int i2 = (int) 8L;
+float f2 = (float) 4.5;(4.5->4.5f)
+note
+int i1 = 4.5;
+error
+int i1 = (int) 4.5;//error solve
+ex-2
+double d1 = 4.5+3;
+(3 will be automatically casted to 3.0)
+it is called explicit casting
+example
+double d = 4.2;
+int i1 = (int)d;
+explicit casting;
+// here d = 4.2 and i1 = 4;
+
+
+
+

@@ -1,0 +1,40 @@
+Identifiers
+-Identifiers are the names that identify the elements in a program
+-Names of Classes
+-Names of Methods 
+-Names of Variables
+ex-
+myName,myJob,sayName,Main etc
+Naming Rules
+i)Can contain letters,digits,underscores,dollar sign
+ii) It must start with letters,or underscores or $ sign .
+iii) it can't contain spaces or start with a digit
+ex-> hello, i, _myName,$1,$myAge-> okay
+not okay types
+ex-> 1hello, @hi,!hi,*name,my Age->
+iv) identifiers cannot be reserved words
+ex- main,class,String
+some legal identifiers-
+1. $2
+2. Person
+3. area
+4. radius
+5. Point
+6. hello
+some illegal identifiers-
+1. 2A
+2. a+b
+3. user name
+4. int
+5. main
+6. System
+Case Sensitivity
+Area,area,ARea,AREA- four different identifiers
+X,x
+Main,main
+tips
+1. Use clear and descriptive names
+ex- numberofStudents,userName
+2. Avoid use abbreviations
+-> numstuds,uName
+3. Don't use the dollar characters when use identifiers

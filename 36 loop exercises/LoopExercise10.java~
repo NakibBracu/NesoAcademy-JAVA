@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class LoopExercise10{
+    //write a program that display take a String from user and say it is palindrome or not
+    public static void main(String [] args){
+    Scanner sc = new Scanner(System.in);
+    String s = sc.nextLine();
+    String s2 ="";
+    for(int i=s.length()-1;i>=0;i--){
+    s2+=s.charAt(i);
+    }
+    if(s1==s2)
+        System.out.println("The String is a Palindrome");
+    else
+        System.out.println("The String is not a Palindrome");
+    }
+}

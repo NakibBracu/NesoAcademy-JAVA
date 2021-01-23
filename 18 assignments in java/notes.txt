@@ -1,0 +1,33 @@
+Assignment Operator
+Using "="
+-lvalue=rvalue
+-lvalue should be a variable
+-rvalue is an expression that evaluates to a value
+-rvalue is evaluated and then restored to lvalue
+//examples
+int x = 1+99;
+here x is a variable and 1+99 is an expression.
+//we can assign multiple variables in the same statement:
+example-
+int y;
+int x=y=4+1;
+*** Assignment Statements(Statements that evaluate an expression and assign the result to a variable)
+int i = 5;
+double d = 5.0;
+int i2 = 10;
+i2 = i2+10;
+***Assignment Expression
+Each assignment statement is an assignment expression
+double d ;
+int i1,i2;
+System.out.println(d=5.0);
+System.out.println(i1=3);
+***Augmented Assignment Operator
+int i1 = 1
+i1 = i1+1;
+i1+=1;
+//example-2
+int i1 = 2;
+i1*=5+1---> means i1 = i1 * (5+1);//12
+if we write i1 = i1*5+1 //this is wrong and the answer will be 11
+

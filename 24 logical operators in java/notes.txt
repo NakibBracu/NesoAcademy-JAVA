@@ -1,0 +1,14 @@
+Logical Operators in JAVA
+Logical AND,OR,NOT
+##Logical operators are used to construct complex conditions
+-Logical AND operator: &&
+-Logical OR operator: ||
+-Logical not operator: !
+These used in booleans and also the result is boolean
+And:
+n conditions thakle prottektai true hote hobe jodi final result true hote hoi
+OR:
+n conditions thakle prottektai False hote hobe jodi final result false hote hoi 
+NOT:
+!false=true
+!true=false

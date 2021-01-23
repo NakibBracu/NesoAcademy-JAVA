@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class LoopExercise5{
+    public static void main(String [] args){
+    Scanner sc = new Scanner(System.in);
+    int max = 0;
+    int min = 0;
+    do{
+        System.out.print("Enter numbers ")
+        int num = sc.nextInt;
+        max = num;
+        min = num;
+    }while(num<0)
+    }
+}

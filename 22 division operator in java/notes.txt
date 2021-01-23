@@ -1,0 +1,24 @@
+Dividing Integers
+(1/2);//0(0.5 asbe nah)
+double d = 1/2; //double = int -> implicit casting
+int i = 1/2;//int to int
+double/double=(double)
+int i = 1.0/2.0 //error
+1.0f/2.0f //0.5f
+double d = 1.0f/2.0f  //float --> double (implicit casting) 
+int i = 1.0f/2.0f;  //int=float->error
+int/double = double
+int i = 1/2.0; //int = double--> error
+float-->double automatically
+1.0f/2.0 = 0.5 (double)
+1.0/2.0f = 0.5 (double)
+double d = 1.0f/2.0; double=double
+float f = 1.0f/2.0; float=double ---> error
+*** dividing floats and integer
+(1.0f/2); //0.5f
+(1/2.0f); //0.5f
+double d = 1.0f/2; //double=float(implicit casting)
+int i = 1.0f/2; error
+int i5 = (int) 1.0f/2; --> 1/2 (okay)
+int i6 = 1.0f/(int)2;//error , int = float
+  

@@ -1,0 +1,40 @@
+Increment Operator(Used to increase the value of a variable by 1)
+++
+Pre-increment(Can be placed before the variable)
+++i;//firstly increment the value by 1 and then stored
+Post-increment(Can be placed after the variable)
+i++;//firstly stored then increment the value by 1
+example
+int i = 4;
+i++;
+System.out.println(i);//5
+//example
+int i = 4;
+++i;
+System.out.println(i);//5
+//example 3
+int i = 1;
+int j = ++i;
+System.out.println("i is "+i+" & j is "+j);
+//i is 2 and & j is 2
+int i = 1;
+int j = i++;
+System.out.println("i is "+i+" & j is "+j); 
+//i is 2 and & j is 1
+///example
+int i = 1;
+int j = i++ +4;
+System.out.println("i is "+i+" & j is "+j); 
+//output 
+i is 2 and & j is 5
+//example
+int i = 1;
+int j = ++i +4;
+System.out.println("i is "+i+" & j is "+j); 
+//output 
+i is 2 and & j is 6
+//decrement er khetreo same khali add er jaigai substract hobe
+int i = 4;
+System.out.println(i--);//4
+int i = 4;
+System.out.println(--i);//3

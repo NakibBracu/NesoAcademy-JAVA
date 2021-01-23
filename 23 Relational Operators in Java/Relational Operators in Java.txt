@@ -1,0 +1,13 @@
+Relational Operators in Java
+==> Operators used to make comparasion
+1) Equality Operator: == // equal 
+2) InEquality Operator: != // not equal
+3) Greater Than Operator: > // check if greater or not
+4) Greater Than or Equal Operator: >= //check if greater or not
+5) Less Than Operator: < // check if less or not
+6) Less Than or Equal Operator: <= // check if less or equal or not
+All the operators shown above produce boolean value
+*Equality Operator: Test if two expression are equal
+boolean b1 = (1==1); //true
+boolean b2 =(2==3);// false
+

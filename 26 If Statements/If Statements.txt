@@ -1,0 +1,22 @@
+If Statements-->
+Used to execute a peace of code based on a condition
+if(boolean-expression)//for one statement
+statement
+if(boolean-expression){
+statements
+}
+if boolean-expression evaluates to true than it will be executed only
+if (true)
+	System.out.println("He is a good guy");
+System.out.println("He has a car");
+the output will be
+He is a good guy
+He has a car
+////////////////example
+if (false)
+System.out.println("He is a good guy");
+System.out.println("He has a car");
+the output will be
+He has a car
+
+	

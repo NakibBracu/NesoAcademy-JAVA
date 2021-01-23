@@ -1,0 +1,27 @@
+Hello NAME
+public static void main (String [] args){
+String userName = "Abrar";
+System.out.println("Hello"+userName);
+}
+creating a variable of type Scanner
+ex-
+Scanner input = new Scanner(System.in);
+//in is a filed of System class; it is static
+****Methods to read different types of input from user
+input.next();//Read a String
+input.nextInt();//Read an integer
+input.nextDouble();//Read a double
+there are more such as 
+.nextByte();
+.nextShort();
+.nextLong();
+.nextFloat();
+.nextBoolean();
+When one of these methods is called the programs will pause execution and wait for the user to enter a value will be returned by these methods.
+note:- we don't have .nextChar();
+code example
+Scanner input = new Scanner(System.in);
+System.out.println(input.next());
+but it only reads the before first space word
+System.out.println(input.nextLine());
+the code shown above reads the whole line

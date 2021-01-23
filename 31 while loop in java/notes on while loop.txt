@@ -1,0 +1,30 @@
+int i = 1;
+while(i<=5){
+System.out.println("Hello");
+i++;
+}
+//printing hello 5 times
+//printing hello 5 times with mentioning the iteration
+int i = 1;//used in the condition
+while(i<=5){
+System.out.println("Hello "+ i);
+i++;//affects the condition
+}//if i=6, false skip the body of the loop 
+while(boolean-expression)//one statement
+   statement
+//for multiple statements
+while(boolean-expression){
+ statement(s)
+}
+//as long as the boolean-expression evaluates to true the loops will be executing
+//each execution is called iteration
+//infinite loop
+int i = 1
+while(i<=5)
+  System.out.println("Hello "+i); 
+//here i = 1 always so it is infinite loop
+//another infinite loop
+while(true)
+System.out.println("Hello");  
+   
+

@@ -1,0 +1,11 @@
+import java.util.Scanner;
+public class WhileloopExercise{
+    public static void main(String [] args){
+    Scanner sc = new Scanner(System.in);
+    int num = sc.nextInt();
+    while(num<1 || num>10){
+     System.out.print(n+" is between 1 to 10.Please try again :");
+     num = sc.nextInt();
+    }
+    }
+}

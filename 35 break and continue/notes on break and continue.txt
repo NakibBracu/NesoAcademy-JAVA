@@ -1,0 +1,46 @@
+break and continue are special keywords used within loops
+--->>>>break
+exits the loop regardless of the condition
+--->>>>continue
+skips the rest of the loop's body.Continue exeucuting the loop as if we finished executing the body.
+---> for loop: execute change
+--->while & do while loops: check condition
+example using continue to print odd numbers between 1 to 10.
+for(int i=1;i<=10;i++){
+if(i%2==0)// if i is even then i++ happened
+continue;
+System.out.println(i+" ");
+}
+//enter a number between 1 to 10
+int n;
+while(true){
+   System.out.print("Enter a number between 1 t0 10 : ");
+    n = sc.nextInt();
+    if(n<1 || n>10)
+    continue;
+    System.out.println(n+" is between 1 to 10");
+    break; 	
+}
+//the following loop will be executing until user donot input number between 1 to 10
+//same code can be written like this;cause n is defined outside the loop.
+int n;
+while(true){
+   System.out.print("Enter a number between 1 t0 10 : ");
+    n = sc.nextInt();
+    if(n<1 || n>10)
+    continue;
+    
+    break; 	
+}
+System.out.println(n+" is between 1 to 10");
+//but if n is defined inside the loop the following code will give us error.See the code below
+while(true){
+   System.out.print("Enter a number between 1 t0 10 : ");
+    int n = sc.nextInt();
+    if(n<1 || n>10)
+    continue;
+    
+    break; 	
+}
+System.out.println(n+" is between 1 to 10");//error
+

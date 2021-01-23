@@ -1,0 +1,10 @@
+Literals are constant values that appear  directly in a program
+//example of String literals
+String s = "Hello";
+System.out.print("This is the text");
+//example of character literals
+char c = 'a';
+System.out.println('b');
+//example of floating-point literals
+System.out.println(15.7f);
+string,double,int,boolean,floats,character etc values which are not changed is called literals. 

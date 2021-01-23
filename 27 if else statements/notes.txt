@@ -1,0 +1,15 @@
+else statement is an optional block for if statement
+format:
+if(boolean-expression)
+   statement
+else
+    statement
+//for multiple statements
+if(boolean-expression){
+   statements
+   }
+else{// this will executes iff the if is false
+    statement	
+}
+// we shouldn't store value in variables unless it used multiple times
+	

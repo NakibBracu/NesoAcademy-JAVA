@@ -1,0 +1,86 @@
+Used to execute different cases based on equality
+switch(expression){
+   case expression_1:
+   statement(s)
+   case expression_2:
+   statement(s)   
+   case expression_n:
+   statement(s)
+   default:
+   statement(s)
+}
+///example
+int n = 10;
+switch(n){
+	case 10:
+	       System.out.println("= 10");	
+    case 90:
+	       System.out.println("= 90");
+    case -3:
+	       System.out.println("= -3");
+	default:   //this case can be written on the top but it is good to write down the case in the end
+           System.out.println("non of the above");	   
+}
+output:-
+=10
+=90
+=-3
+=non of the above
+//example 2
+int n = 6;
+switch(n){
+	case 10:
+	       System.out.println("= 10");	
+    case 90:
+	       System.out.println("= 90");
+    case -3:
+	       System.out.println("= -3");
+	default:   //this case can be written on the top but it is good to write down the case in the end
+           System.out.println("non of the above");	   
+}
+output:-
+=non of the above
+//example 3
+int n = 90;
+switch(n){
+	case 10:
+	       System.out.println("= 10");	
+    case 90:
+	       System.out.println("= 90");
+    case -3:
+	       System.out.println("= -3");
+	default:   //this case can be written on the top but it is good to write down the case in the end
+           System.out.println("non of the above");	   
+}
+output:-
+=90
+=-3
+=non of the above
+//exaple 4
+int n = 10;
+switch(n){
+	case 10:
+	       System.out.println("= 10");	
+    case 90:
+	       System.out.println("= 90");
+    case -3:
+	       System.out.println("= -3");
+}
+output:-
+
+processed finished
+//example 5
+int n = 6;
+switch(n){
+	case 10:
+	       System.out.println("= 10");	
+    case 90:
+	       System.out.println("= 90");
+	default:   
+           System.out.println("non of the above");	   	   
+    case -3:
+	       System.out.println("= -3");
+}	
+output:-
+=non of the above
+= -3

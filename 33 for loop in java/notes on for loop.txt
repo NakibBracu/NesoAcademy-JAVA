@@ -1,0 +1,53 @@
+for(variable or intialization;condition;change)
+   statement
+// for multiple statements
+for(variable or intialization;condition;change){
+   statement(s)    
+ }
+//as long as the condition is true the loop will be executed
+ int i = 1;            
+ while(i<=5){
+ statements
+ i++;
+ }
+ ----->>>>
+ same example with for loop
+ for(int i=1;i<=5;i++){
+ statements
+ }
+ //outside the for loop i can't be recognized
+ for(int i=1;i<=5;i++){
+ System.out.println(i);
+ }
+ System.out.println(i);//error
+ //but if we declared i outside the loop this will work
+ int i;
+  for(int i=1;i<=5;i++){
+ System.out.println(i);
+ }
+ System.out.println(i);//this will give us 6
+ ---> if we declare variable part outside we can leave the variable part empty in the for loop structure
+ --->see example below
+ int i=1;
+  for(;i<=5;i++){
+ System.out.println(i);
+ }
+ System.out.println(i);//this will give us 6
+ ++i == i++ & --i==i-- in the for loop
+ ------>>>>infinite for loop--------<<<<<<<<<
+ for( ; ; )
+  System.out.println("hello");
+---> another way
+ for( ;true ; )
+  System.out.println("hello");  
+----->>>using for loop as while loop--------<<<<<<<
+int i =1;
+for( ;i<=5; ){
+ System.out.println("hello");
+ i++;
+}  
+ 
+ 
+ 
+ 
+ 

@@ -1,0 +1,14 @@
+public access modifier
+ The access level is everywhere
+ -inside a class
+ -outside a class
+ -inside the package
+ -outside the package
+private access modifier
+ -the access level is only inside the class
+static-(non access modifier)
+- we can access fields/methods using the class name
+ex- System.out(out is a static field of system)
+here we out filed by accessing System class.
+ 
+ 

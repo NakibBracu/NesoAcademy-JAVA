@@ -1,0 +1,20 @@
+immutable objects are those objects whose contents can't be changed
+-A constant is a variable whose value can't changed
+-An immutable object is a object whose contents can't be changed
+-Immutable objects are created from immutable classes
+-The String class in java is immutable.So, the contents of String objects can't be changed.
+String str = "OLD VALUE";
+str = "NEW VALUE";
+We are thinking that "OLD VALUE" is replaced by "NEW VALUE" but there is nothing happen like that. "OLD VALUE" will be removed by Java Garbage Collector;
+and str reference "NEW VALUE"
+********************************
+Using new with Strings
+Strings are immutable-> no need to use new
+-We would want to use new because it allows us to create a seperate object that references a seperate value.
+-When working with Strings this is not needed because the original String will not be modified because Strings are immutable 
+String str1 = "VALUE 1";// str1----------->"VALUE 1"
+String str2 = str1;// str1,str2------------>"VALUE 1"
+str2 = "VALUE 2";//str 1--------->"VALUE 1";
+str 2--------->"VALUE 2" ;
+//always use = with Strings;
+  

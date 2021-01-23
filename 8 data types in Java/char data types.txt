@@ -1,0 +1,20 @@
+unicode encoding scheme
+computer see characters/everything in binary numbers
+-Each Character is encoded and stored in the memory
+-encoding is mapping each character to its binary representation with the help of an encoding scheme
+-java uses unicode encoding scheme
+-Character to unicode to binary
+-binary->unicode->Character
+Char Data Types
+-Declaration
+char c;
+Range ['\u0000','\uffff'](unicode representation) or [0,65,535]
+Each number represents a character
+Character will always be in single ('')quotes
+ex- 'A','a','&','*','4' etc
+A char variable takes 2B in the memory
+'A'-> '\u0041',65
+'a'->'\u0061',97
+';'->'\u003b',59
+
+

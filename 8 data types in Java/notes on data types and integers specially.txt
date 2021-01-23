@@ -1,0 +1,20 @@
+Outline
+1. Integers(0,1,2,780,-9 etc)-[without a deciaml point]
+2. Real Numbers/Floating point Numbers(0.0,4.5)-[with a deciaml point] [integers can be real Numbers] 
+3. Characters('a','b','c','#','$','*' etc )[all in the keyboards and more] 
+[note- Characters are surrounded by single quotes]
+4. Strings-("a","akash","Badhon%^","" etc)
+5. Booleans-[true,false]
+6. User Defined types-[create a custom type using classes and Objects]
+point(class)-[x:number,y:number]
+objects of point class (5,2) & (0,0)
+extra notes on integers
+range of int interval [-2147483648,2147483647]
+Valid int variables
+1. int i1 = 7;
+2. int i2 = -9;
+3. int i3 = -2147483648;
+4. int i4 = 2147483647;
+5. int i5 = 2147483648; error out of the interval
+6. int i6 = -2147483649;error out of the interval
+ 

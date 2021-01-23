@@ -1,0 +1,28 @@
+Variables
+used to store value in our computer memory
+to store values in this memory we need to reserve some space
+-using a variable
+Each variable has specific type.
+-value can change so it is called variable.
+A variable is like a box in the computer's memory
+-Declaration-(Allocating some space inside our memory)
+-To allocate space in our memory we declare a variable
+-> TYPE NAME;
+-> the type of the variable should be compatible with the data inside it.
+-> to store a String inside a variable,the variable type should be String.
+-String myName;
+-Declaration of multiple variables-
+-Type Name1,Name2;
+-String myName,myJob;
+***assignment
+used to store/put a value inside a variable
+We use = to assign a value
+variableName=expression;
+->myJob="Programmer";
+ Programmer stored inside myJob.
+-An expression is anything that produces/gives a value,ex-(4+3) is an expression which gives 7
+Initialization
+String myJob="Programmer";
+redefining variables will not work
+each variable has a unique name
+

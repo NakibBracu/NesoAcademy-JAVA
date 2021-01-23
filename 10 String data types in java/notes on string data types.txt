@@ -1,0 +1,11 @@
+String is a class which contains some static methods
+String Objects-variable of type String,also have some methods
+ex- String name;
+name.[many methods will appear which have different return type]
+ex- codes
+String text = "This is some text";
+String upperCaseText = text.toUpperCase();
+System.out.println(upperCaseText);
+this code will print THIS IS SOME TEXT
+//THE NEW STRING WILL BE CREATED BUT NOT MODIFIED
+

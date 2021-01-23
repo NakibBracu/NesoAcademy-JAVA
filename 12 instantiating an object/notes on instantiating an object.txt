@@ -1,0 +1,17 @@
+ClassName objectName = new ClassName(Parameters);
+//ClassName(Parameters) is a special method call constructor
+Point point = new Point(1,2);
+Cat tom = new Cat("Tom");
+***instantiating a String Object
+String name1 = "Akash";
+String name2 = new String("Akash");
+both the code works java makes easy to work flexibly with String
+thats why we can use it like primitive data types
+if we don't use the new keyword our object reference the same value and if we do so the new variable takes new space for that
+ex-
+String name1 = "Akash";-----(i)
+String name2 = "Akash";-----(ii)
+String name3 = new String("Akash");------(iii)
+for (i) & (ii) the thing works like references
+but for (iii) it works like primitive data types.
+

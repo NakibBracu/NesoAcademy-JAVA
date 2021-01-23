@@ -1,0 +1,22 @@
+A bit is a smallest unit to measure memory
+A byte is equal to 8 bits
+Our memory is divided into bytes
+each variable reserves a certain number of bytes in memory
+More bytes mean larger values
+- A long reserves more bytes than int
+1B = 8b
+-byte:1B
+->8b
+->Short:2B
+->16b
+->int: 4B
+->32b
+->long:8B
+->64b
+*Calculating The Range
+[min,max]=[-2^nbofBits-1,(2^nbofBits-1)-1]
+short 2B
+16b
+Range=[-2^16-1,(2^16-1)-1]=[-2^15,(2^15)-1]=[-32768,32767]
+we don't have to memorize the ranges
+find it in datatypes.Max_Value or datatypes.Min_Value

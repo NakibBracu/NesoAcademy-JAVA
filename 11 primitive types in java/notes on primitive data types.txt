@@ -1,0 +1,13 @@
+Primitive types are the types that holds simple values
+ex- byte,short,int,long,float,double and char
+the variable contanis the value
+this primitive types values stored in a memory that has specific addresses
+types that hold complex values(Objects)
+String is a reference types (box inside the box)
+ex-
+String s = "Hello";
+the way Hello is restored in memory is String s has a box where many objects is restored in different addresses and Hello will find the empty address and stored there
+In a easy way the variable contains the address of the value
+The variable references the value thats why its called reference types
+in primitive data types all works like box
+but in reference data types they works like saving the addresses

@@ -1,0 +1,14 @@
+constant values cannot be changed
+we use final keyword for constant
+-it can be used like any other variable
+-Normally constant case are written in uppercase
+we can also use snake case convention for writing constant(use underscores)
+syntax error will be shown if we try to change the value of constant
+example of creating constants
+final Type Name = Value;(format)
+final String Company_Name = "Neso Academy";
+benefits
+i) The value won't change accidentaly
+ii) You don't have to type the same value if it is used multiple times
+iii)
+

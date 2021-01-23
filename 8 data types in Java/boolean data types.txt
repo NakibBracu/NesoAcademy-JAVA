@@ -1,0 +1,5 @@
+Boolean-(A type that is used with boolean/logic values)
+-Declaration
+boolean c;
+boolean values can be either true or false;
+-The size of the boolean variable is not precisely defined. it depends on JVM

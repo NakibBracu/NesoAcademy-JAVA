@@ -1,0 +1,27 @@
+Conditional Operators in JAVA
+An operator that evaluates an expression based on a condition
+boolean-expression ? expression1 : expression2
+expression1 if boolean-expression is true
+expression2 if boolean-expression is false
+example:
+MAX of two numbers
+int a = 10;
+int b = 15;
+int max = a>b?a:b;// here a>b boolean-expression;a is expression1 & b is expression2
+int a = 10;
+int b = 15;
+int max = a>b?b:a;
+// line 13 can also be this way int max = ((a>b)?b:a);
+System.out.println(max);// 15
+###example 2 with String
+String name = "Neso Academy";
+System.out.println(name.isEmpty()?"The name is not valid":name);
+-output-> Neso Academy 
+String name = "";
+System.out.println(name.isEmpty()?"The name is not valid":name);
+-output-> The name is not valid
+##negating
+String name = "Neso Academy";
+System.out.println(!name.isEmpty()?name:"The name is not valid");
+-output->Neso Academy
+  

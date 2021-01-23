@@ -1,0 +1,20 @@
+Double
+A type used with floating-point numbers
+declaring
+double number;
+Range
+[-1.7976931348623157*10^308,1.7976931348623157*10^308]
+-smallest positive non-zero number:
+4.9*10^-324
+a double takes 8B in the memory
+Float
+A type used with floating-point numbers
+declaring
+float number;
+Range-
+[-3.4028235E38F,3.4028235E38F]
+-smallest positive non-zero number
+1.4*10^-45;
+-float takes 4B in the memory
+-double is more precise and accurate
+
